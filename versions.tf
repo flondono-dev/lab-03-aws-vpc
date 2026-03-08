@@ -14,7 +14,7 @@ provider "aws" {
 
   default_tags {
     tags = {
-      Project     = "vpc-lab01"
+      Project     = "vpc-lab02"
       Environment = var.environment
       ManagedBy   = "terraform"
     }
